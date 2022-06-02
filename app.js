@@ -82,7 +82,7 @@ function getSong(id, event) {
             clickedEvent(0, 0)
             break;
         }
-        case 'div2': { // N95
+        case 'div2': { // Stay
             event.stopPropagation();
             clickedEvent(1, 0)
             break;  
@@ -97,12 +97,12 @@ function getSong(id, event) {
             clickedEvent(3, 0)
             break;
         }
-        case 'div5': { // Leave the Door Open
+        case 'div5': { // I like dat
             event.stopPropagation();
             clickedEvent(4, 0)
             break;
         }
-        case 'div6': { // Mr. Carter
+        case 'div6': { // Smokin out the window
             event.stopPropagation();
             clickedEvent(5, 0)
             break;
